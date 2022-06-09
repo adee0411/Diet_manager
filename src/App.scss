@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@100;300&display=swap");
+$color1: rgb(26, 102, 183);
+$color2: rgb(128, 31, 177);
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato";
+  color: rgb(85, 85, 85);
+}
+
+.App {
+  width: 65%;
+  min-width: 1200px;
+  margin: 0 auto;
+
+  &__head {
+    text-align: center;
+    color: $color1;
+  }
+
+  &__body {
+    display: flex;
+    gap: 2rem;
+  }
+}
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

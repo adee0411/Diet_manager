@@ -1,0 +1,18 @@
+.chart-view__tab {
+  position: relative;
+  bottom: -12px;
+  padding: 10px;
+  transition: transform 0.3s ease;
+  border-radius: 5px;
+  cursor: pointer;
+  flex: 1;
+  transition: all 0.3s ease;
+  box-shadow: inset 5px 5px 15px transparent, 5px 5px 15px rgb(214, 214, 214);
+
+  display: flex;
+  justify-content: center;
+
+  &--active {
+    box-shadow: inset 5px 5px 15px rgb(214, 214, 214), 5px 5px 15px transparent;
+  }
+}

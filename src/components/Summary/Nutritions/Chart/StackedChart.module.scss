@@ -1,0 +1,40 @@
+.stacked-chart {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 5px;
+  font-size: 0.9rem;
+
+  display: flex;
+  gap: 5px;
+
+  &__item {
+    transition: width 0.3s ease;
+    overflow: hidden;
+    padding: 10px 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__icon {
+    width: 24px;
+    height: auto;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__protein {
+    background: linear-gradient(-45deg, rgb(76, 234, 197), rgb(76, 210, 234));
+  }
+
+  &__fat {
+    background: linear-gradient(-45deg, rgb(239, 68, 210), rgb(142, 76, 234));
+  }
+
+  &__ch {
+    background: linear-gradient(-45deg, rgb(250, 194, 103), rgb(250, 103, 103));
+  }
+}

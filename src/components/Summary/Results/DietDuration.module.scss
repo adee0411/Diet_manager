@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@100;300&display=swap");
+$color1: rgb(26, 102, 183);
+$color2: rgb(128, 31, 177);
+
+.duration {
+  padding: 10px 20px;
+  background: linear-gradient(-45deg, $color1, $color2);
+  color: #fff;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 32px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  &__text {
+    span {
+      font-family: "Anton";
+    }
+  }
+}

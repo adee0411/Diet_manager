@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@100;300&display=swap");
+
+$color1: rgb(26, 102, 183);
+$color2: rgb(211, 42, 177);
+
+.setting-card {
+  padding: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 5px 5px 10px rgba(204, 204, 204, 0.509),
+    -2px -2px 10px rgba(204, 204, 204, 0.509);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  &__title {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+  }
+
+  &__icon {
+    width: 48px;
+    height: 48px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 60%;
+    }
+  }
+
+  &__range-value {
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "Anton";
+  }
+}

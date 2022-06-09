@@ -1,0 +1,15 @@
+$color1: rgb(26, 102, 183);
+$color2: rgb(211, 42, 177);
+
+.settings {
+  flex: 1;
+
+  form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    border: none;
+    gap: 20px;
+    padding: 0;
+  }
+}

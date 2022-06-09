@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@100;300&display=swap");
+$color1: rgb(26, 102, 183);
+$color2: rgb(128, 31, 177);
+
+.diet-goals__card {
+  padding: 10px 15px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex: 1;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: inset 5px 5px 15px transparent, 5px 5px 15px rgb(214, 214, 214);
+  transition: box-shadow 0.6s ease;
+  font-size: 0.6rem;
+
+  &--active {
+    box-shadow: inset 5px 5px 15px rgb(214, 214, 214), 5px 5px 15px transparent;
+  }
+
+  .goal__image {
+    width: 24px;
+    height: auto;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .goal__value {
+    margin-left: auto;
+    color: $color2;
+    font-family: "Anton";
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@100;300&display=swap");
+
+$color1: rgb(26, 102, 183);
+$color2: rgb(211, 42, 177);
+
+.daily-calories {
+  margin: 10px 0;
+  display: flex;
+  gap: 20px;
+
+  &__card {
+    padding: 10px 20px;
+    border: 1px solid $color2;
+    border-radius: 10px;
+    flex: 1;
+  }
+
+  &__value {
+    color: $color2;
+    font-size: 1.5rem;
+    font-family: "Anton";
+  }
+}

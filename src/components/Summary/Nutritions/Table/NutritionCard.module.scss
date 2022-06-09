@@ -1,0 +1,57 @@
+$color1: rgb(26, 102, 183);
+$color2: rgb(211, 42, 177);
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@100;300&display=swap");
+
+.nutrition {
+  flex: 1;
+  text-align: center;
+
+  &__icon {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-45deg, $color1, $color2);
+    border-radius: 50%;
+
+    &--protein {
+      background: linear-gradient(-45deg, rgb(76, 234, 197), rgb(76, 210, 234));
+    }
+
+    &--fat {
+      background: linear-gradient(-45deg, rgb(239, 68, 210), rgb(142, 76, 234));
+    }
+
+    &--ch {
+      background: linear-gradient(
+        -45deg,
+        rgb(250, 194, 103),
+        rgb(250, 103, 103)
+      );
+    }
+
+    img {
+      width: 50%;
+    }
+  }
+
+  &__name {
+    font-size: 1.1rem;
+  }
+
+  &__amount,
+  &__calories {
+    font-size: 1rem;
+  }
+
+  &__calories {
+    color: $color2;
+  }
+
+  &__ratio {
+    color: $color2;
+    font-family: "Anton";
+  }
+}
